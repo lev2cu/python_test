@@ -28,5 +28,10 @@ frame['single_element'].map(format) 	element wise map method
 
 Sorting series & frame:
 frame.sort_index()	sorting frame
+frame.sort_index(by = ['col1','col2']) 	sort in muli-colums using "by" options
 obj.order()		sort a series by its values 
+
+Statistics:
+frame.describe 	summary statistics such as count, mean, std, min, 25%, 50%, 75%, max (non-number data: count, unique, top, freq)
+
 
