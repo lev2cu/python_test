@@ -1,0 +1,28 @@
+
+a = array([1,2,2,2]) 	create sets
+unique(a)		set unique
+a.union(b)		set union
+a.intersection(b)	set intersection 
+a.symmetric_difference(b)	set exclusion
+2 in a			true for set number
+
+
+Regression:
+(a,b) = polyfit(x,y,1)	straight line fit
+linalg.lstsq(x,y)	linear least square
+polyfit(x,y,3)		polynomial fit
+
+non-linear methods
+poly()			polynomial
+roots()			find zeros of polynomial
+polyval(array([1,2,3]), arange(1,3)) evalute polynomial 
+
+
+
+os.listdir(".")		list files in directory
+grep.grep("*.py")	list script files in directory 
+os.getcwd()		pwd
+os.chdir('foo')		change working diretory
+
+
+
