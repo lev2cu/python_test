@@ -22,6 +22,8 @@ a[:,0]			First column
 a.take([0,2]).take([0,3], axis=1)	Array as indices- a([1 3], [1 4])
 (a>90).choose(a,90)		clipping: replace all elements over 90
 a.clip(min=2, max=2)		clip upper and lower values 
+a.shape or a.getshape()		Matrix dimensions
+a.size				lenght of matrix
 
 maximum(a,b)			pairwise max
 concatenate((a,b)).max()	max of all values in two vectors
@@ -36,6 +38,18 @@ a.setshape(2,3)    		reshaping rows first
 a.flatten()			flatten to vectors (by rows)
 
 b = a.copy()			copy of a
+
+vdot(a,b)	Vector dot product
+cross(a,b)	Cross product
+
+a.ravel().nonzero()	Non-zero elements, indices... find(a)
+
+
+
+
+
+
+
 
 
 

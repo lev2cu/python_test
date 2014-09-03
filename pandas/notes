@@ -1,3 +1,21 @@
 from pandas import Series, DataFrame
 import pandas as pd
 
+INDEX:
+Method	 		Description
+append	 		Concatenate with additional Index objects, producing a new Index diff Compute set difference as an Index
+intersection 		Compute set intersection
+union		 	Compute set union
+isin 			Compute boolean array indicating whether each value is contained in the passed collection delete Compute new Index with element at index i deleted
+drop 			Compute new index by deleting passed values
+insert 			Compute new Index by inserting element at index i
+is_monotonic 		Returns True if each element is greater than or equal to the previous element is_unique Returns True if the Index has no duplicate values
+unique	 		Compute the array of unique values in the Index
+
+REINDEX:
+
+Argument 	ffill or pad bfill or backfill
+Description	Fill (or carry) values forward Fill (or carry) values backward
+
+
+
