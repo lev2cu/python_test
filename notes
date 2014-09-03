@@ -1,0 +1,17 @@
+
+libraries:
+
+NumPy - ndarray 
+$ import nympy as np
+
+pandas- data structures (Numpy+sql)
+$ import pandas as pd
+
+matplotlib - 2D visualization:
+$import matplotlib.pyplot as plt
+ 
+IPython - shell (data analysis & visualization)
+
+SciPy - packages / toolboxes
+
+ 
