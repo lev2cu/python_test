@@ -1,6 +1,8 @@
 from pandas import Series, DataFrame
 import pandas as pd
 
+
+
 INDEX:
 Method	 		Description
 append	 		Concatenate with additional Index objects, producing a new Index diff Compute set difference as an Index
@@ -17,5 +19,10 @@ REINDEX:
 Argument 	ffill or pad bfill or backfill
 Description	Fill (or carry) values forward Fill (or carry) values backward
 
+
+Mapping:
+format = lambda x: '%.2f' %x
+frame.applymap(format)		compute a formated string for all value in the frame
+frame['single_element'].map(format) 	element wise map method
 
 
