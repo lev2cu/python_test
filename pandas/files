@@ -1,0 +1,17 @@
+
+
+Read:
+
+df = pd.read_csv('.csv', names = ['_','_'], index_col = ['_'])
+
+Read in peices:
+chunker  = pd.read_csv(.csv', chunksize = 1000)
+tot = Series([])
+	for peice in chunker
+		tot = tot.add(peice['key'],value_counts(), fill_value=0)
+tot[:10]
+
+write:
+
+
+
