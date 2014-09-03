@@ -26,3 +26,7 @@ frame.applymap(format)		compute a formated string for all value in the frame
 frame['single_element'].map(format) 	element wise map method
 
 
+Sorting series & frame:
+frame.sort_index()	sorting frame
+obj.order()		sort a series by its values 
+
