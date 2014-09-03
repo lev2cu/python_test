@@ -1,8 +1,11 @@
 from pandas import Series, DataFrame
 import pandas as pd
 
-
-
+Clean data:
+dataFrame.dropna() 	drop rows/col even if it has a single null value
+dataFrame.dropna(howw='all')	drop only ALL null rows/col
+dataFrame.fillna(0)		replace null values with a "0" 
+dataFrame.fillna(method='ffill')	fills all the null by previous value in col
 INDEX:
 Method	 		Description
 append	 		Concatenate with additional Index objects, producing a new Index diff Compute set difference as an Index
