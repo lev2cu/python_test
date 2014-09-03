@@ -1,0 +1,11 @@
+
+
+f = fromfile("data.txt")	reading from file
+f = load('data.csv', delimiter=';')	Reading fram a CSV file (2d)
+save('data.csv', f, fmt='%.6f', delimiter=';')	writing to a file(2d)
+
+ sep=';' for 1d files (rm fmt, delimiter)
+
+
+
+
