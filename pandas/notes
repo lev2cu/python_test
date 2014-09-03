@@ -1,6 +1,9 @@
 from pandas import Series, DataFrame
 import pandas as pd
 
+import pandas.io.data as web 		create panel
+
+
 Hierarchical index:
 dataFrame.unstack()	to rearrange data into a data frame
 dataFrame.stack()	inverse of unstack
