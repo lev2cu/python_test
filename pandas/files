@@ -3,15 +3,37 @@
 Read:
 
 df = pd.read_csv('.csv', names = ['_','_'], index_col = ['_'])
-
-Read in peices:
+______
+Read in 10 peices:
 chunker  = pd.read_csv(.csv', chunksize = 1000)
 tot = Series([])
 	for peice in chunker
 		tot = tot.add(peice['key'],value_counts(), fill_value=0)
 tot[:10]
+__________
 
 write:
+df.to_csv('.csv')
 
+
+CSV dielects:
+delimiter 	','
+lineterminator 	'\r\n'
+quotechar 	'"'
+quoting		csv.QUOTE_ALL
+escapechar	csv.QUOTE_NONE
+
+
+DATABASES:
+
+SQL:
+import sqlite3
+query = """ create table test (a varchar(),... );"""
+con = sqlite3.connect(':memory:')
+con.execute(query)
+con.commit
+
+import pandas.io.sql as sql
+sql.read_frame('select * from test'. con)
 
 
