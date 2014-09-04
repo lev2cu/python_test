@@ -1,0 +1,12 @@
+
+
+
+MERGE:
+pd.merge(df1, df2, how='inner')
+
+left	DataFrame to be merged on the left side
+right 	DataFrame to be merged on the right side
+how 	One of 'inner', 'outer', 'left' or 'right'. 'inner' by default
+on 	Column names to join on. Must be found in both DataFrame objects.
+left_on Columns in left DataFrame to use as join keys
+right_index Use row index in right as its join key 
