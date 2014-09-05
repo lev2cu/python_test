@@ -1,0 +1,6 @@
+
+
+#mapping function 
+
+data.replace(val,elem)
+data.index.map(str.upper)
