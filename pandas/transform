@@ -22,3 +22,6 @@ data[np.abs(data)>3] = np.sign(data)*3
 data1 = pd.get_dummies(df['key'])
 ... df_wit_dummy = df[['data1']].join(dummies)
 
+#cleaning
+import re   	#regular expression
+re.split('\s+', text)
