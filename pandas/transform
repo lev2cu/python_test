@@ -18,3 +18,7 @@ pd.value_counts(data)
 data[(np.abs(data) > 3).any(1)]
 data[np.abs(data)>3] = np.sign(data)*3
 
+# dummy 
+data1 = pd.get_dummies(df['key'])
+... df_wit_dummy = df[['data1']].join(dummies)
+
