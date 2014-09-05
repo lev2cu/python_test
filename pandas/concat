@@ -7,3 +7,9 @@ pd.concat([df1, df2], ignore_index=True)
 
 If you pass a dict of objects instead of a list, the dict’s keys will be used for the keys option:
 In [77]: pd.concat({'level1': df1, 'level2': df2}, axis=1))
+
+
+stack: columns2rows
+unstack: rows2columns
+
+
