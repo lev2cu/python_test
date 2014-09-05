@@ -6,9 +6,15 @@ data.replace(val,elem)
 data.index.map(str.upper)
 
 #binning ftn
-
-data.cut
-data.label
+data.labels
 data.levels
+pd.cut(data, 4, precision=2)
+pd.qcut(data, 4) # Cut into quartiles
 
 pd.value_counts(data)
+
+
+# outliers
+data[(np.abs(data) > 3).any(1)]
+data[np.abs(data)>3] = np.sign(data)*3
+
