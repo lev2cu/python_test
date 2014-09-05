@@ -1,0 +1,9 @@
+
+pd.concat([s1,s2,..], axis = 1, join = 'inner'
+				join_axis = ['a', 'b',..], keys=['one','two',..],names=['upper', 'lower'])
+
+Ignore the true index name:
+pd.concat([df1, df2], ignore_index=True)
+
+If you pass a dict of objects instead of a list, the dict’s keys will be used for the keys option:
+In [77]: pd.concat({'level1': df1, 'level2': df2}, axis=1))
