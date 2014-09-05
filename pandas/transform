@@ -4,3 +4,11 @@
 
 data.replace(val,elem)
 data.index.map(str.upper)
+
+#binning ftn
+
+data.cut
+data.label
+data.levels
+
+pd.value_counts(data)
