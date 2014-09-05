@@ -12,4 +12,8 @@ In [77]: pd.concat({'level1': df1, 'level2': df2}, axis=1))
 stack: columns2rows
 unstack: rows2columns
 
+stacking filters out missing data by default, so the operation is easily invertible:
+data.unstack().stack()
+
+
 
