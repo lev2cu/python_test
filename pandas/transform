@@ -25,3 +25,7 @@ data1 = pd.get_dummies(df['key'])
 #cleaning
 import re   	#regular expression
 re.split('\s+', text)
+re.compile 	# apply same expressione
+re.IGNORECASE makes the regex case-insensitive
+
+regex.sub('to_replace', text)
