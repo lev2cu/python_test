@@ -1,0 +1,21 @@
+import sys
+
+
+def count_ftn(file):
+    with open(file) as f:
+        text = f.read()
+        lines = text.count('\n') + 1
+        return lines
+        
+
+def main():
+    #file input
+    if len(sys.argv)>1:
+        for file in sys.argv[1]:
+            count_ftn(file)
+        
+
+
+
+if __name__ == "__main__":
+      main()
